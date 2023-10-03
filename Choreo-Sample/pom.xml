@@ -13,6 +13,8 @@
     <module>ServiceConfigUtils</module>
     <module>ServiceConfig-1</module>
     <module>CarbonApplication-1</module>
+    <module>CarbonApplication-2</module>
+    <module>CarbonApplication-Utils</module>
   </modules>
   <scm>
     <connection>scm:git:https://github.com/username/repository.git</connection>
