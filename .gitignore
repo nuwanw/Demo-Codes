@@ -1,0 +1,9 @@
+# Ignore everything in this directory
+target
+build
+.classpath
+.settings
+.project
+*.i??
+.idea
+.DS_Store
