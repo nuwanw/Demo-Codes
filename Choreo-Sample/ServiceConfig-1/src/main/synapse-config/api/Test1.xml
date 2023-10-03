@@ -12,6 +12,15 @@
             <respond/>
         </inSequence>
         <outSequence/>
-        <faultSequence/>
+        <faultSequence>
+            <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
+            <payloadFactory media-type="xml">
+                <format>
+                    <msg xmlns="">Error</msg>
+                </format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </faultSequence>
     </resource>
 </api>
