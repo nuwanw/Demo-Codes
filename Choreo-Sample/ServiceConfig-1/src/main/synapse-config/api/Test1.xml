@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/test1" name="Test1" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST GET" url-mapping="/*">
+        <inSequence>
+            <sequence key="LogSequence"/>
+            <payloadFactory media-type="xml">
+                <format>
+                    <msg xmlns="">Hello, This is Test API 1</msg>
+                </format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
